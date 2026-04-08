@@ -1,0 +1,5 @@
+add_library(cppml_project_options INTERFACE)
+
+target_compile_features(cppml_project_options INTERFACE cxx_std_20)
+
+target_include_directories(cppml_project_options INTERFACE ${PROJECT_SOURCE_DIR})
