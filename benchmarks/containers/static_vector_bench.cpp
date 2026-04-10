@@ -1,9 +1,15 @@
 #include <benchmark/benchmark.h>
 
-static void BM_week01_placeholder(benchmark::State& state) {
+#include "core/containers/static_vector.hpp"
+
+static void BM_static_vector_push(benchmark::State& state) {
     for (auto _ : state) {
-        benchmark::DoNotOptimize(state.iterations());
+        cppml::static_vector<int, 1024> values;
+        for (int i = 0; i < 512; ++i) {
+            values.push_back(i);
+        }
+        benchmark::DoNotOptimize(values);
     }
 }
 
-BENCHMARK(BM_week01_placeholder);
+BENCHMARK(BM_static_vector_push);
