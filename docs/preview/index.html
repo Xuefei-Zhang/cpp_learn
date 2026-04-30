@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C++ Engineering Mastery Lab Docs Preview</title>
+    <link rel="stylesheet" href="./preview.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <h1 id="docs-title">Docs Preview</h1>
+          <p>Manifest-driven browser preview for repository markdown.</p>
+        </div>
+        <input id="nav-search" class="search" type="search" placeholder="Search page titles" aria-label="Search docs" />
+        <nav id="nav-root" aria-label="Documentation navigation"></nav>
+      </aside>
+      <main class="main">
+        <div class="toolbar">
+          <button id="sidebar-toggle" type="button" aria-expanded="true" aria-controls="sidebar">Toggle sidebar</button>
+          <span class="page-meta" id="page-meta">Loading manifest…</span>
+        </div>
+        <section class="page-card">
+          <header class="page-header">
+            <h2 id="page-title">Loading…</h2>
+            <div class="page-status" id="page-status"></div>
+          </header>
+          <article class="page-content" id="page-content"></article>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./preview.js"></script>
+  </body>
+</html>
