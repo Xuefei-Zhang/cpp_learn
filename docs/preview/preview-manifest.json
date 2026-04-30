@@ -1,0 +1,49 @@
+{
+  "title": "C++ Engineering Mastery Lab Docs Preview",
+  "landing": "README.md",
+  "sidebar": [
+    {
+      "title": "Repository",
+      "items": [
+        { "file": "README.md", "title": "Project Overview" },
+        { "file": "2026-04-07-language-mastery-lab-generic-design.md", "title": "Generic Design" }
+      ]
+    },
+    {
+      "title": "Phases",
+      "items": [
+        { "file": "docs/phases/phase-a-engineering-foundation-and-object-model.md", "title": "Phase A: Engineering Foundation and Object Model" },
+        { "file": "docs/phases/phase-b-generic-design-and-interface-quality.md", "title": "Phase B: Generic Design and Interface Quality" },
+        { "file": "docs/phases/phase-c-runtime-mechanics-performance-and-concurrency.md", "title": "Phase C: Runtime Mechanics, Performance, and Concurrency" },
+        { "file": "docs/phases/phase-d-system-integration-and-portfolio-project.md", "title": "Phase D: System Integration and Portfolio Project" }
+      ]
+    },
+    {
+      "title": "Glossary",
+      "items": [
+        { "file": "docs/glossary/week-01-core-terms.md", "title": "Week 1 Core Terms" }
+      ]
+    },
+    {
+      "title": "Superpowers",
+      "items": [
+        { "file": "docs/superpowers/specs/2026-04-08-cpp-engineering-mastery-lab-design.md", "title": "Mastery Lab Design" },
+        { "file": "docs/superpowers/plans/2026-04-08-cpp-engineering-mastery-lab-implementation-plan.md", "title": "Implementation Plan" }
+      ]
+    },
+    {
+      "title": "Missions",
+      "items": [
+        { "file": "missions/week-01-project-bootstrap-and-value-semantics/README.md", "title": "Week 1 Mission" },
+        { "file": "missions/week-02-raii-and-resource-management/README.md", "title": "Week 2 Mission" }
+      ]
+    },
+    {
+      "title": "Notes",
+      "items": [
+        { "file": "notes/weekly/week-01.md", "title": "Week 1 Notes" },
+        { "file": "notes/weekly/week-02.md", "title": "Week 2 Notes" }
+      ]
+    }
+  ]
+}
