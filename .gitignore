@@ -2,6 +2,7 @@ build/
 build-*/
 .cache/
 .DS_Store
+.worktrees/
 ccache/
 cscope.out
 cscope.out.in
